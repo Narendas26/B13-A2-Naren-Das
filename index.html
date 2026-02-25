@@ -16,10 +16,10 @@
         <!-- Header Section -->
         <header>
             <!-- Navbar Area -->
-             <div class="nav-parent w-full bg-[#1A0B2E] flex flex-3 justify-around items-center py-7">
+             <div class="nav-parent w-full bg-[#1A0B2E] flex justify-around items-center py-7">
                 <div class="nav-logo"><span class="text-5xl font-bold text-white">Tech</span><span class="text-5xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Wave</span></div>
                 <div class="nav-menu">
-                    <ul class="text-white flex flex-3 gap-8">
+                    <ul class="text-white flex gap-8">
                         <li><a href="about-section" class="p-4 transition duration-700 hover:bg-amber-400 hover:text-black">About</a></li>
                         <li><a href="episode-section" class="p-4 transition duration-700 hover:bg-amber-400 hover:text-black">Episodes</a></li>
                         <li><a href="host-section" class="p-4 transition duration-700 hover:bg-amber-400 hover:text-black">Host</a></li>
@@ -31,6 +31,8 @@
 
         <!-- Main Section -->
         <main>
+
+
 
             <!-- About the podcast section -->
             <div class="w-full bg-[#1A0B2E]">
@@ -110,14 +112,14 @@
             </div>
 
             <!-- Featured Episode & Meet the host section-->
-            <div class="w-full bg-[#1A0B2E]">
+            <div class="w-full bg-[#1A0B2E] pb-[7.5rem]">
 
                 <!-- Featured Episode -->
                 <div class="w-6xl mx-auto text-center mb-[6rem]">
                     <div class="pt-28">
                         <h3 class="text-white text-4xl font-bold font-inter mb-10">Featured Episodes</h3>
                     </div>
-                    <div class="flex flex-3 gap-4">
+                    <div class="flex gap-4">
                         <div class="bg-[#250D44] w-[23rem] rounded-3xl p-5">
                             
                             <iframe class="w-full overflow-hidden mb-5" width="560" height="315" src="https://www.youtube.com/embed/oJC8VIDSx_Q?si=EYjTJ1fpnBA4VP6L" allowfullscreen></iframe>
@@ -152,30 +154,30 @@
                     <div>
                         <h3 class="text-white text-4xl font-bold font-inter mb-10">Meet the Host</h3>
                     </div>
-                    <div class="bg-[#250D44] w-4xl flex flex-2 items-center gap-4 rounded-3xl p-10 mx-auto">
+                    <div class="bg-[#250D44] w-4xl flex items-center gap-4 rounded-3xl p-10 mx-auto">
                         <!-- image section -->
                         <div>
-                             <img src="assets/host.png" alt="" class="w-">
+                             <img src="assets/host.png" alt="" class="w-2xs">
                         </div>
 
                         <!-- Host description section -->
                         <div>
                                <h3 class="text-white text-3xl font-bold font-inter mx-auto pt-1.5 mb-3 text-left">Alex Kumar</h3> 
                                <p class="text-[#A89EB4] font-inter text-[0.8rem] mb-3 text-justify">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
-                               <div class="flex flex-4 items-center gap-4">
-                                    <a href="https://www.linkedin.com/">
+                               <div class="flex items-center gap-4">
+                                    <a href="https://www.linkedin.com/" class="transition duration-300 hover:scale-110">
                                         <img src="assets/linkedin1.png" alt="">
                                     </a>
 
-                                    <a href="https://x.com/">
+                                    <a href="https://x.com/" class="transition duration-300 hover:scale-110">
                                         <img src="assets/x-h.png" alt="">
                                     </a>
 
-                                    <a href="https://www.instagram.com/">
+                                    <a href="https://www.instagram.com/" class="transition duration-300 hover:scale-110">
                                         <img src="assets/insta.png" alt="">
                                     </a>
 
-                                    <a href="https://www.youtube.com/">
+                                    <a href="https://www.youtube.com/" class="transition duration-300 hover:scale-110">
                                         <img src="assets/youtub.png" alt="">
                                     </a>
                                </div>
@@ -188,7 +190,36 @@
 
         <!-- Footer Section -->
         <footer>
+                <!-- Techwave footer section -->
+                 <div class="bg-[url(/assets/footer-bg.png)] bg-cover bg-center bg-no-repeat">
+                    <div class="w-[85rem] mx-auto py-39 flex flex-col gap-y-6">
+                       <div class="text-center">
+                            <span class="text-6xl font-bold text-white">Tech</span><span class="text-6xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Wave</span>
+                       </div>
 
+                       <div class="w-[40rem] mx-auto flex">
+                            <div class="flex flex-1 gap-2 justify-center transition duration-300 hover:scale-105">
+                                <div><img src="assets/spotify.png" alt=""></div><div class="text-[#A5A0B5] text-[0.8rem] font-inter"><a href="https://open.spotify.com/">Spotify</a></div>
+                            </div>
+
+                            <div class="flex flex-1 gap-2 justify-center transition duration-300 hover:scale-105">
+                                <div><img src="assets/apple-podcast.png" alt=""></div><div class="text-[#A5A0B5] text-[0.8rem] font-inter"><a href="https://podcasts.apple.com/">Apple Podcast</a></div>
+                            </div>
+
+                            <div class="flex flex-1 gap-2 justify-center transition duration-300 hover:scale-105">
+                                <div><img src="assets/youtube-podcast.png" alt=""></div><div class="text-[#A5A0B5] text-[0.8rem] font-inter"><a href="https://www.youtube.com/">Youtube</a></div>
+                            </div>
+
+                            <div class="flex flex-1 gap-2 justify-center transition duration-300 hover:scale-105">
+                                <div><img src="assets/twitter.png" alt=""></div><div class="text-[#A5A0B5] text-[0.8rem] font-inter"><a href="https://x.com/">Twitter</a></div>
+                            </div>
+                       </div>
+
+                       <div class="text-center">
+                            <p class="text-[#A5A0B5] text-[0.8rem] font-inter">© 2026 TechWave Podcast. All rights reserved.</p>
+                       </div>
+                    </div>
+                 </div>
         </footer>
 
 </body>
